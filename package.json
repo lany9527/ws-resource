@@ -1,0 +1,32 @@
+{
+  "name": "wx-resource",
+  "version": "1.0.4",
+  "description": "\"# wx-resource\"",
+  "main": "dist/wx-resource.js",
+  "scripts": {
+    "build": "webpack --display-error-details --progress --colors",
+    "watch": "webpack --display-error-details --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lany9527/wx-resource.git"
+  },
+  "keywords": [
+    "websocket",
+    "weChat",
+    "app"
+  ],
+  "author": "lany9527",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.0.5"
+  },
+  "devDependencies": {
+    "ts-loader": "^1.3.3",
+    "typescript": "^2.1.5",
+    "webpack": "v2.2.0-rc.5"
+  },
+  "bugs": {
+    "url": "https://github.com/lany9527/wx-resource/issues"
+  }
+}
